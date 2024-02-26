@@ -1,0 +1,15 @@
+import axios from 'axios'
+import React, { Fragment } from 'react'
+
+export default function CategoriesSlider() {
+     function getCategories(){
+        return axios.get(`https://ecommerce.routemisr.com/api/v1/categories`)
+    }
+    useQ
+  return (
+    <Fragment>
+    
+      <h2>Shop Popular Categories</h2>
+      </Fragment>
+  )
+}
