@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/freshCart/static/css/main.59fa70d4.css",
-    "main.js": "/freshCart/static/js/main.169d122d.js",
+    "main.js": "/freshCart/static/js/main.14cc388b.js",
     "static/js/592.7f72a991.chunk.js": "/freshCart/static/js/592.7f72a991.chunk.js",
     "static/media/fa-solid-900.ttf": "/freshCart/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
     "static/media/slider-image-1.jpeg": "/freshCart/static/media/slider-image-1.3c3940ee0f1c3b17ff9a.jpeg",
@@ -12,6 +12,7 @@
     "static/media/grocery-banner-2.jpeg": "/freshCart/static/media/grocery-banner-2.7a4a78a90acc3d5847cb.jpeg",
     "static/media/fa-solid-900.woff2": "/freshCart/static/media/fa-solid-900.fb8184add5a3101ad0a3.woff2",
     "static/media/fa-brands-400.woff2": "/freshCart/static/media/fa-brands-400.8d3cabfc66809162fb4d.woff2",
+    "static/media/error.svg": "/freshCart/static/media/error.084f5f5b0eb10d3216cb7c939108e1f6.svg",
     "static/media/fa-regular-400.ttf": "/freshCart/static/media/fa-regular-400.adc51aab4d771ab65f81.ttf",
     "static/media/fa-regular-400.woff2": "/freshCart/static/media/fa-regular-400.e931bc0d14f5bbb1da22.woff2",
     "static/media/fa-v4compatibility.ttf": "/freshCart/static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
@@ -23,11 +24,11 @@
     "static/media/slick.woff": "/freshCart/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/freshCart/index.html",
     "main.59fa70d4.css.map": "/freshCart/static/css/main.59fa70d4.css.map",
-    "main.169d122d.js.map": "/freshCart/static/js/main.169d122d.js.map",
+    "main.14cc388b.js.map": "/freshCart/static/js/main.14cc388b.js.map",
     "592.7f72a991.chunk.js.map": "/freshCart/static/js/592.7f72a991.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.59fa70d4.css",
-    "static/js/main.169d122d.js"
+    "static/js/main.14cc388b.js"
   ]
 }
