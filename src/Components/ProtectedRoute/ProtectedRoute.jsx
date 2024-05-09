@@ -3,7 +3,17 @@ import { Navigate } from 'react-router-dom'
 
 export default function ProtectedRoute(props) {
 
-  if(localStorage.getItem('userToken')){
+  let token = localStorage.getItem('userToken')
+  try{
+  const decoded = jwtDecode(token);  //decode for token => get decode that can know the role
+  console.log(decoded)
+  }catch(err){
+    console.log(err)
+    localStorage.clear()
+    return <Navigate to={'/login'}></Navigate>
+  }
+  
+  if(token){
     return props.children
   }
   else{
