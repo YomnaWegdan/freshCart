@@ -49,7 +49,7 @@ export default function Cart() {
   }
   
   function checkOutSession(shippingAddress){ 
-    return axios.post(`https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${data?.data.data._id}?url=https://yomnawegdan.github.io/freshCart` , 
+    return axios.post(`https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${data?.data.data._id}?url=https://yomnawegdan.github.io/freshCart/#` , 
     shippingAddress,
     {
         headers:{
