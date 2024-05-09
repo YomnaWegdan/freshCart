@@ -1,5 +1,5 @@
 import './App.css';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { RouterProvider, createBrowserRouter , createHashRouter } from 'react-router-dom';
 import Layout from './Components/Layout/Layout';
 import Home from './Components/Home/Home';
 import Cart from './Components/Cart/Cart';
@@ -26,7 +26,7 @@ import ForgetPassword from './Components/Login/ForgetPassword';
 
 
 function App() {
-  const routs = createBrowserRouter([
+  const routs = createHashRouter([
     {path:'' , element:<Layout/> , children:[
       {index:true , element:<ProtectedRoute><Home/></ProtectedRoute> },
       {path:'/cart', element: <ProtectedRoute><Cart/></ProtectedRoute>},
