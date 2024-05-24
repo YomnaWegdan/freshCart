@@ -99,7 +99,7 @@ export default function Login() {
                   ""
                 )}
 
-                <div className="d-flex justify-content-between">
+                <div className="d-flex justify-content-between flex-wrap">
                   {loading ? (
                     <button type=" button" className="btn bg-main text-white ">
                       <ThreeDots
